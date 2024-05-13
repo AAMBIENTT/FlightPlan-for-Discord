@@ -1,0 +1,12 @@
+version: '3'
+
+services:
+  hexbot: 
+    build: .
+    container_name: FlightPlan
+    restart: unless-stopped
+    # Add environment variables here if needed
+    volumes:
+      - .:/usr/src/app
+
+

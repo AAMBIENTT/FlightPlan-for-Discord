@@ -1,0 +1,6 @@
+nextcord
+pymysql
+python-dotenv
+pytz
+Pillow
+requests
